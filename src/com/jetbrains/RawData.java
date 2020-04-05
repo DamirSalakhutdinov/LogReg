@@ -3,14 +3,11 @@ package com.jetbrains;
 public class RawData {
     int[] PassengerId;
     int[] Pclass;
-    String[] Name;
     String[] Sex;
     float[] Age;
     int[] SibSp;
     int[] Parch;
-    String[] Ticket;
     float[] Fare;
-    String[] Cabin;
     String[] Embarked;
 
     public RawData(int length) {

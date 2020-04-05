@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Main {
     static int dataSize = 418;
     static int numOfColumns = 8;
-    static String dataPath = "/home/sdild/Kaggle/Titanic/test.csv";
-    static String coefPath = "/home/sdild/Kaggle/Titanic/coef.txt";
+    static String dataPath = "res/test.csv";
+    static String coefPath = "res/coef.txt";
 
     public static void main(String[] args) {
         float[] coef = new float[numOfColumns + 1];
